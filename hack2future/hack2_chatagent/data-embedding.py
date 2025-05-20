@@ -13,6 +13,7 @@ from sentence_transformers import SentenceTransformer
  
 
 from rapidfuzz import fuzz
+
 known_companies = ['oyo', 'seruminstitute']
  
 def resolve_company_name_custom(query: str, known_names: list[str], threshold: int = 80):
