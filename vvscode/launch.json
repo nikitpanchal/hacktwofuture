@@ -1,0 +1,16 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "debug streamlit",
+            "type": "python",
+            "request": "launch",
+            "program": "/Users/nikitpanchal/Documents/hacktwofuture/myvenv/lib/python3.13/site-packages/streamlit", // /home/xx/tmp/venv/bin/streamlit",
+            "args": [
+                "run",
+                "/Users/nikitpanchal/Documents/hacktwofuture/hack2_future/docling/5-chat.py"
+            ]
+        },
+        
+    ]
+}
